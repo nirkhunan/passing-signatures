@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+
+# Python precompute env / caches (data JSON in public/data IS committed)
+precompute/.venv
+__pycache__/
+*.pyc

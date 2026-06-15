@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "tournament": {
+    "id": "wc2022",
+    "name": "FIFA World Cup 2022",
+    "source": "StatsBomb Open Data",
+    "team_count": 32
+  },
+  "teams": [
+    {
+      "id": 779,
+      "name": "Argentina",
+      "file": "argentina.json"
+    },
+    {
+      "id": 792,
+      "name": "Australia",
+      "file": "australia.json"
+    },
+    {
+      "id": 782,
+      "name": "Belgium",
+      "file": "belgium.json"
+    },
+    {
+      "id": 781,
+      "name": "Brazil",
+      "file": "brazil.json"
+    },
+    {
+      "id": 2722,
+      "name": "Cameroon",
+      "file": "cameroon.json"
+    },
+    {
+      "id": 1833,
+      "name": "Canada",
+      "file": "canada.json"
+    },
+    {
+      "id": 795,
+      "name": "Costa Rica",
+      "file": "costa_rica.json"
+    },
+    {
+      "id": 785,
+      "name": "Croatia",
+      "file": "croatia.json"
+    },
+    {
+      "id": 776,
+      "name": "Denmark",
+      "file": "denmark.json"
+    },
+    {
+      "id": 3565,
+      "name": "Ecuador",
+      "file": "ecuador.json"
+    },
+    {
+      "id": 768,
+      "name": "England",
+      "file": "england.json"
+    },
+    {
+      "id": 771,
+      "name": "France",
+      "file": "france.json"
+    },
+    {
+      "id": 770,
+      "name": "Germany",
+      "file": "germany.json"
+    },
+    {
+      "id": 4885,
+      "name": "Ghana",
+      "file": "ghana.json"
+    },
+    {
+      "id": 797,
+      "name": "Iran",
+      "file": "iran.json"
+    },
+    {
+      "id": 778,
+      "name": "Japan",
+      "file": "japan.json"
+    },
+    {
+      "id": 794,
+      "name": "Mexico",
+      "file": "mexico.json"
+    },
+    {
+      "id": 788,
+      "name": "Morocco",
+      "file": "morocco.json"
+    },
+    {
+      "id": 941,
+      "name": "Netherlands",
+      "file": "netherlands.json"
+    },
+    {
+      "id": 789,
+      "name": "Poland",
+      "file": "poland.json"
+    },
+    {
+      "id": 780,
+      "name": "Portugal",
+      "file": "portugal.json"
+    },
+    {
+      "id": 3566,
+      "name": "Qatar",
+      "file": "qatar.json"
+    },
+    {
+      "id": 799,
+      "name": "Saudi Arabia",
+      "file": "saudi_arabia.json"
+    },
+    {
+      "id": 787,
+      "name": "Senegal",
+      "file": "senegal.json"
+    },
+    {
+      "id": 786,
+      "name": "Serbia",
+      "file": "serbia.json"
+    },
+    {
+      "id": 791,
+      "name": "South Korea",
+      "file": "south_korea.json"
+    },
+    {
+      "id": 772,
+      "name": "Spain",
+      "file": "spain.json"
+    },
+    {
+      "id": 773,
+      "name": "Switzerland",
+      "file": "switzerland.json"
+    },
+    {
+      "id": 777,
+      "name": "Tunisia",
+      "file": "tunisia.json"
+    },
+    {
+      "id": 1839,
+      "name": "United States",
+      "file": "united_states.json"
+    },
+    {
+      "id": 783,
+      "name": "Uruguay",
+      "file": "uruguay.json"
+    },
+    {
+      "id": 907,
+      "name": "Wales",
+      "file": "wales.json"
+    }
+  ]
+}

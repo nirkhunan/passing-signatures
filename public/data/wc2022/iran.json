@@ -1,0 +1,1710 @@
+{
+  "schema_version": "1.0",
+  "tournament": {
+    "id": "wc2022",
+    "name": "FIFA World Cup 2022",
+    "source": "StatsBomb Open Data",
+    "team_count": 32
+  },
+  "team": {
+    "id": 797,
+    "name": "Iran",
+    "matches_played": 3
+  },
+  "nodes": [
+    {
+      "player_id": 5220,
+      "name": "Morteza Pouraliganji",
+      "position": "LCB",
+      "touches_per90": 25.7,
+      "minutes": 305.1,
+      "avg_x": 40.2,
+      "avg_y": 30.9
+    },
+    {
+      "player_id": 5224,
+      "name": "Sardar Azmoun",
+      "position": "CF",
+      "touches_per90": 20.8,
+      "minutes": 138.7,
+      "avg_x": 76.6,
+      "avg_y": 39.3
+    },
+    {
+      "player_id": 5226,
+      "name": "Mehdi Taremi",
+      "position": "CF",
+      "touches_per90": 25.4,
+      "minutes": 305.1,
+      "avg_x": 70.7,
+      "avg_y": 35.6
+    },
+    {
+      "player_id": 5227,
+      "name": "Alireza Safar Beiranvand",
+      "position": "GK",
+      "touches_per90": 12.8,
+      "minutes": 119.1,
+      "avg_x": 9.3,
+      "avg_y": 42.5
+    },
+    {
+      "player_id": 5228,
+      "name": "Seyed Majid Hosseini",
+      "position": "RCB",
+      "touches_per90": 18.6,
+      "minutes": 305.1,
+      "avg_x": 32.4,
+      "avg_y": 44.6
+    },
+    {
+      "player_id": 5230,
+      "name": "Ehsan Hajsafi",
+      "position": "LM",
+      "touches_per90": 25.2,
+      "minutes": 249.9,
+      "avg_x": 58.0,
+      "avg_y": 15.4
+    },
+    {
+      "player_id": 5235,
+      "name": "Ramin Rezaeian",
+      "position": "RB",
+      "touches_per90": 32.5,
+      "minutes": 202.0,
+      "avg_x": 56.5,
+      "avg_y": 69.6
+    },
+    {
+      "player_id": 5720,
+      "name": "Milad Mohammadi",
+      "position": "LB",
+      "touches_per90": 14.9,
+      "minutes": 212.0,
+      "avg_x": 51.5,
+      "avg_y": 9.4
+    },
+    {
+      "player_id": 5722,
+      "name": "Saeid Ezatolahi Afagh",
+      "position": "LDM",
+      "touches_per90": 25.1,
+      "minutes": 240.1,
+      "avg_x": 58.1,
+      "avg_y": 37.9
+    },
+    {
+      "player_id": 23538,
+      "name": "Sadegh Moharrami",
+      "position": "RWB",
+      "touches_per90": 12.2,
+      "minutes": 103.1,
+      "avg_x": 57.1,
+      "avg_y": 68.7
+    },
+    {
+      "player_id": 23874,
+      "name": "Ali Gholizadeh",
+      "position": "RM",
+      "touches_per90": 21.8,
+      "minutes": 210.7,
+      "avg_x": 66.0,
+      "avg_y": 53.4
+    },
+    {
+      "player_id": 124161,
+      "name": "Mehdi Torabi",
+      "position": "RM",
+      "touches_per90": 31.0,
+      "minutes": 95.9,
+      "avg_x": 68.7,
+      "avg_y": 43.1
+    },
+    {
+      "player_id": 124167,
+      "name": "Ahmad Nourollahi",
+      "position": "LDM",
+      "touches_per90": 16.0,
+      "minutes": 224.7,
+      "avg_x": 60.7,
+      "avg_y": 46.7
+    },
+    {
+      "player_id": 125818,
+      "name": "Ali Karimi",
+      "position": "RDM",
+      "touches_per90": 27.5,
+      "minutes": 117.8,
+      "avg_x": 65.5,
+      "avg_y": 37.5
+    },
+    {
+      "player_id": 125823,
+      "name": "Seyed Hossein Hosseini",
+      "position": "GK",
+      "touches_per90": 7.7,
+      "minutes": 186.0,
+      "avg_x": 9.4,
+      "avg_y": 38.9
+    }
+  ],
+  "edges": [
+    {
+      "from": 5220,
+      "to": 5226,
+      "count": 9,
+      "per90": 2.65,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 5230,
+      "count": 10,
+      "per90": 2.95,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.1,
+      "pct_backward": 0.7,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 125818,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 125818,
+      "to": 5230,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.75,
+      "pct_backward": 0.25,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5230,
+      "to": 5720,
+      "count": 11,
+      "per90": 3.24,
+      "pct_forward": 0.273,
+      "pct_lateral": 0.182,
+      "pct_backward": 0.545,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5720,
+      "to": 5230,
+      "count": 16,
+      "per90": 4.72,
+      "pct_forward": 0.438,
+      "pct_lateral": 0.438,
+      "pct_backward": 0.125,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23538,
+      "to": 124167,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.6,
+      "pct_backward": 0.2,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5720,
+      "to": 5226,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125823,
+      "to": 23538,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23538,
+      "to": 5220,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5220,
+      "to": 5230,
+      "count": 11,
+      "per90": 3.24,
+      "pct_forward": 0.818,
+      "pct_lateral": 0.182,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23538,
+      "to": 5226,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.25,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5226,
+      "to": 5720,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.5,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 124167,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5220,
+      "to": 125823,
+      "count": 8,
+      "per90": 2.36,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.125,
+      "pct_backward": 0.875,
+      "direction_class": "backward"
+    },
+    {
+      "from": 125823,
+      "to": 5220,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.167,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 23538,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 5220,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5228,
+      "to": 5720,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5220,
+      "to": 125818,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 5226,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.714,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 5228,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 5226,
+      "count": 12,
+      "per90": 3.54,
+      "pct_forward": 0.917,
+      "pct_lateral": 0.083,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 5228,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 125818,
+      "to": 5228,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 124167,
+      "to": 5722,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.6,
+      "pct_backward": 0.2,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5722,
+      "to": 5220,
+      "count": 9,
+      "per90": 2.65,
+      "pct_forward": 0.111,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.889,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5220,
+      "to": 5228,
+      "count": 18,
+      "per90": 5.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.889,
+      "pct_backward": 0.111,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5228,
+      "to": 5722,
+      "count": 9,
+      "per90": 2.65,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 23538,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23538,
+      "to": 23874,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5230,
+      "to": 5228,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5228,
+      "to": 5220,
+      "count": 24,
+      "per90": 7.08,
+      "pct_forward": 0.083,
+      "pct_lateral": 0.542,
+      "pct_backward": 0.375,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 125823,
+      "to": 5230,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 5230,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 124167,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 124167,
+      "to": 5720,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5230,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.5,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 23874,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.167,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5226,
+      "count": 8,
+      "per90": 2.36,
+      "pct_forward": 0.625,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.125,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 5226,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 5722,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5228,
+      "to": 5230,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.8,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5230,
+      "to": 124161,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124161,
+      "to": 23874,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 124161,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.333,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5226,
+      "to": 124167,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 23538,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 124161,
+      "to": 5722,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.333,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5722,
+      "to": 124167,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.25,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 5226,
+      "count": 10,
+      "per90": 2.95,
+      "pct_forward": 0.8,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 23874,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.167,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5224,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5224,
+      "to": 23874,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 125823,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5224,
+      "to": 124161,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 124161,
+      "to": 5228,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5722,
+      "to": 23874,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 5228,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5228,
+      "to": 23538,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23538,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5224,
+      "to": 23538,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.5,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 125823,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 125823,
+      "to": 124161,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124161,
+      "to": 23538,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5220,
+      "to": 124161,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5226,
+      "to": 5224,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.6,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 124161,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 23874,
+      "count": 16,
+      "per90": 4.72,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.188,
+      "pct_backward": 0.062,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5235,
+      "count": 15,
+      "per90": 4.42,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.6,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 5220,
+      "count": 8,
+      "per90": 2.36,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.125,
+      "pct_backward": 0.875,
+      "direction_class": "backward"
+    },
+    {
+      "from": 124167,
+      "to": 23874,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 124167,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 5235,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.571,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.143,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125823,
+      "to": 5224,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 5235,
+      "count": 19,
+      "per90": 5.6,
+      "pct_forward": 0.632,
+      "pct_lateral": 0.316,
+      "pct_backward": 0.053,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5228,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.8,
+      "direction_class": "backward"
+    },
+    {
+      "from": 125823,
+      "to": 5722,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 5228,
+      "count": 8,
+      "per90": 2.36,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.75,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5224,
+      "to": 5230,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5720,
+      "to": 5235,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5220,
+      "to": 124167,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5722,
+      "to": 5230,
+      "count": 9,
+      "per90": 2.65,
+      "pct_forward": 0.444,
+      "pct_lateral": 0.444,
+      "pct_backward": 0.111,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 124167,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.5,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5235,
+      "to": 124167,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 5220,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.833,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 5224,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125823,
+      "to": 5228,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5224,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.857,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.143,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 5722,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 5720,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5220,
+      "to": 5720,
+      "count": 10,
+      "per90": 2.95,
+      "pct_forward": 0.9,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.1,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 125823,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5230,
+      "to": 5235,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125823,
+      "to": 5235,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5230,
+      "to": 124167,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.25,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124167,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5722,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.286,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.429,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5224,
+      "to": 5226,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5720,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5230,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 5224,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5722,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.8,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5220,
+      "to": 5722,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.6,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 23874,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 124161,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5226,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5226,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5720,
+      "to": 125818,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5720,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5226,
+      "to": 5235,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.143,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.571,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5235,
+      "to": 124161,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.714,
+      "pct_lateral": 0.143,
+      "pct_backward": 0.143,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124161,
+      "to": 5226,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5226,
+      "to": 124161,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 124161,
+      "to": 5720,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 125818,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 125818,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.2,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5230,
+      "to": 5722,
+      "count": 6,
+      "per90": 1.77,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.167,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5224,
+      "to": 5235,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.5,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5227,
+      "to": 5226,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 5228,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5226,
+      "to": 5227,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5227,
+      "to": 5220,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5228,
+      "to": 23874,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5220,
+      "to": 5227,
+      "count": 9,
+      "per90": 2.65,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5227,
+      "to": 5228,
+      "count": 8,
+      "per90": 2.36,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5224,
+      "to": 124167,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5228,
+      "to": 5227,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5227,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 5235,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.6,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.2,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5235,
+      "to": 5227,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5227,
+      "to": 124167,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5227,
+      "to": 125818,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5224,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 125818,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.8,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5220,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5226,
+      "to": 125818,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.75,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5227,
+      "to": 5722,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 23874,
+      "to": 125818,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5235,
+      "count": 7,
+      "per90": 2.06,
+      "pct_forward": 0.571,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.143,
+      "direction_class": "forward"
+    },
+    {
+      "from": 125818,
+      "to": 5722,
+      "count": 5,
+      "per90": 1.47,
+      "pct_forward": 0.2,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.4,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 124167,
+      "to": 125818,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5228,
+      "to": 124161,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5722,
+      "to": 124161,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124161,
+      "to": 5220,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 125818,
+      "to": 124161,
+      "count": 2,
+      "per90": 0.59,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.5,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5220,
+      "to": 5235,
+      "count": 3,
+      "per90": 0.88,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 124161,
+      "to": 5235,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5235,
+      "to": 5220,
+      "count": 4,
+      "per90": 1.18,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.5,
+      "direction_class": "backward"
+    },
+    {
+      "from": 124161,
+      "to": 125818,
+      "count": 1,
+      "per90": 0.29,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    }
+  ],
+  "clusters": [
+    {
+      "rank": 1,
+      "z_score": 5.34,
+      "player_ids": [
+        5220,
+        5227,
+        5228
+      ],
+      "label": "Central recycle triangle",
+      "description": "Pouraliganji–Beiranvand–Hosseini (deep recycle)"
+    },
+    {
+      "rank": 2,
+      "z_score": 5.12,
+      "player_ids": [
+        5220,
+        5228,
+        5722
+      ],
+      "label": "Central recycle triangle",
+      "description": "Pouraliganji–Hosseini–Afagh (midfield recycle)"
+    },
+    {
+      "rank": 3,
+      "z_score": 5.08,
+      "player_ids": [
+        5220,
+        5228,
+        5235
+      ],
+      "label": "Central recycle triangle",
+      "description": "Pouraliganji–Hosseini–Rezaeian (midfield recycle)"
+    },
+    {
+      "rank": 4,
+      "z_score": 4.63,
+      "player_ids": [
+        5220,
+        5228,
+        125823
+      ],
+      "label": "Central recycle triangle",
+      "description": "Pouraliganji–Hosseini–Hosseini (deep recycle)"
+    },
+    {
+      "rank": 5,
+      "z_score": 4.56,
+      "player_ids": [
+        5220,
+        5228,
+        5230
+      ],
+      "label": "Central recycle triangle",
+      "description": "Pouraliganji–Hosseini–Hajsafi (midfield recycle)"
+    }
+  ]
+}

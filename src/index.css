@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Locked theme tokens (PRD §4) also exposed as CSS variables, so non-Tailwind
+   consumers (e.g. SVG strokes set in JS, d3-force rendering) can read them. */
+:root {
+  --bg: #f3f6f3;
+  --surface: #ffffff;
+  --border: #dde4df;
+  --node: #22312a;
+  --node-dim: #c9d2cc;
+  --edge-forward: #0f9e8e;
+  --edge-lateral: #6b7a82;
+  --edge-backward: #7c3aed;
+  --spotlight: #e0a000;
+  --cluster-1: #0072b2;
+  --cluster-2: #009e73;
+  --cluster-3: #d55e00;
+  --cluster-4: #cc79a7;
+  --cluster-5: #56b4e9;
+  --text: #22312a;
+  --text-muted: #6b7a82;
+  --isolate-veil: #e8ece9;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+}

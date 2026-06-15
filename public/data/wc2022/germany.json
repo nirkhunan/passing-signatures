@@ -1,0 +1,1811 @@
+{
+  "schema_version": "1.0",
+  "tournament": {
+    "id": "wc2022",
+    "name": "FIFA World Cup 2022",
+    "source": "StatsBomb Open Data",
+    "team_count": 32
+  },
+  "team": {
+    "id": 770,
+    "name": "Germany",
+    "matches_played": 3
+  },
+  "nodes": [
+    {
+      "player_id": 3053,
+      "name": "Leroy Sané",
+      "position": "RW",
+      "touches_per90": 41.2,
+      "minutes": 126.8,
+      "avg_x": 83.6,
+      "avg_y": 47.1
+    },
+    {
+      "player_id": 3167,
+      "name": "Antonio Rüdiger",
+      "position": "LCB",
+      "touches_per90": 64.6,
+      "minutes": 294.0,
+      "avg_x": 47.0,
+      "avg_y": 35.6
+    },
+    {
+      "player_id": 5562,
+      "name": "Thomas Müller",
+      "position": "CAM",
+      "touches_per90": 31.2,
+      "minutes": 201.7,
+      "avg_x": 80.4,
+      "avg_y": 50.0
+    },
+    {
+      "player_id": 5570,
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "touches_per90": 27.2,
+      "minutes": 294.0,
+      "avg_x": 11.3,
+      "avg_y": 39.5
+    },
+    {
+      "player_id": 5579,
+      "name": "Joshua Kimmich",
+      "position": "RDM",
+      "touches_per90": 65.5,
+      "minutes": 294.0,
+      "avg_x": 65.6,
+      "avg_y": 46.5
+    },
+    {
+      "player_id": 6322,
+      "name": "Niklas Süle",
+      "position": "RCB",
+      "touches_per90": 64.5,
+      "minutes": 287.6,
+      "avg_x": 53.1,
+      "avg_y": 58.9
+    },
+    {
+      "player_id": 6324,
+      "name": "Leon Goretzka",
+      "position": "LDM",
+      "touches_per90": 24.6,
+      "minutes": 171.9,
+      "avg_x": 68.1,
+      "avg_y": 40.7
+    },
+    {
+      "player_id": 8400,
+      "name": "Serge Gnabry",
+      "position": "RW",
+      "touches_per90": 36.2,
+      "minutes": 273.3,
+      "avg_x": 82.8,
+      "avg_y": 46.9
+    },
+    {
+      "player_id": 8546,
+      "name": "Niclas Füllkrug",
+      "position": "RCF",
+      "touches_per90": 27.2,
+      "minutes": 92.6,
+      "avg_x": 90.1,
+      "avg_y": 33.0
+    },
+    {
+      "player_id": 8966,
+      "name": "Kai Havertz",
+      "position": "CF",
+      "touches_per90": 29.6,
+      "minutes": 112.4,
+      "avg_x": 86.6,
+      "avg_y": 40.0
+    },
+    {
+      "player_id": 10287,
+      "name": "İlkay Gündoğan",
+      "position": "LDM",
+      "touches_per90": 67.2,
+      "minutes": 190.1,
+      "avg_x": 66.9,
+      "avg_y": 35.6
+    },
+    {
+      "player_id": 12034,
+      "name": "David Raum",
+      "position": "LB",
+      "touches_per90": 50.0,
+      "minutes": 250.3,
+      "avg_x": 70.2,
+      "avg_y": 9.5
+    },
+    {
+      "player_id": 24118,
+      "name": "Nico Schlotterbeck",
+      "position": "LCB",
+      "touches_per90": 82.7,
+      "minutes": 107.7,
+      "avg_x": 48.5,
+      "avg_y": 16.7
+    },
+    {
+      "player_id": 39565,
+      "name": "Jamal Musiala",
+      "position": "LW",
+      "touches_per90": 46.6,
+      "minutes": 274.1,
+      "avg_x": 82.5,
+      "avg_y": 28.6
+    }
+  ],
+  "edges": [
+    {
+      "from": 6324,
+      "to": 10287,
+      "count": 5,
+      "per90": 1.53,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.2,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 5570,
+      "count": 15,
+      "per90": 4.59,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5570,
+      "to": 3167,
+      "count": 19,
+      "per90": 5.82,
+      "pct_forward": 0.579,
+      "pct_lateral": 0.421,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3167,
+      "to": 12034,
+      "count": 27,
+      "per90": 8.27,
+      "pct_forward": 0.889,
+      "pct_lateral": 0.074,
+      "pct_backward": 0.037,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 39565,
+      "count": 30,
+      "per90": 9.18,
+      "pct_forward": 0.733,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.067,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 8400,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8400,
+      "to": 6324,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3167,
+      "to": 6322,
+      "count": 58,
+      "per90": 17.76,
+      "pct_forward": 0.431,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.069,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3167,
+      "to": 5570,
+      "count": 32,
+      "per90": 9.8,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.125,
+      "pct_backward": 0.875,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5570,
+      "to": 12034,
+      "count": 11,
+      "per90": 3.37,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8400,
+      "to": 5579,
+      "count": 17,
+      "per90": 5.2,
+      "pct_forward": 0.118,
+      "pct_lateral": 0.412,
+      "pct_backward": 0.471,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5579,
+      "to": 5570,
+      "count": 10,
+      "per90": 3.06,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 12034,
+      "to": 3167,
+      "count": 21,
+      "per90": 6.43,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.143,
+      "pct_backward": 0.857,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3167,
+      "to": 39565,
+      "count": 9,
+      "per90": 2.76,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 10287,
+      "count": 13,
+      "per90": 3.98,
+      "pct_forward": 0.231,
+      "pct_lateral": 0.385,
+      "pct_backward": 0.385,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 10287,
+      "to": 6324,
+      "count": 9,
+      "per90": 2.76,
+      "pct_forward": 0.444,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.222,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 10287,
+      "count": 10,
+      "per90": 3.06,
+      "pct_forward": 0.3,
+      "pct_lateral": 0.3,
+      "pct_backward": 0.4,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 39565,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 5562,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5579,
+      "to": 10287,
+      "count": 19,
+      "per90": 5.82,
+      "pct_forward": 0.368,
+      "pct_lateral": 0.368,
+      "pct_backward": 0.263,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 8400,
+      "count": 15,
+      "per90": 4.59,
+      "pct_forward": 0.733,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.067,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8400,
+      "to": 10287,
+      "count": 9,
+      "per90": 2.76,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.444,
+      "pct_backward": 0.556,
+      "direction_class": "backward"
+    },
+    {
+      "from": 10287,
+      "to": 5579,
+      "count": 21,
+      "per90": 6.43,
+      "pct_forward": 0.429,
+      "pct_lateral": 0.476,
+      "pct_backward": 0.095,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5579,
+      "to": 39565,
+      "count": 23,
+      "per90": 7.04,
+      "pct_forward": 0.87,
+      "pct_lateral": 0.13,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 5562,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 3167,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3167,
+      "to": 5579,
+      "count": 35,
+      "per90": 10.71,
+      "pct_forward": 0.714,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5579,
+      "to": 12034,
+      "count": 18,
+      "per90": 5.51,
+      "pct_forward": 0.722,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.111,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 3167,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 39565,
+      "to": 8400,
+      "count": 10,
+      "per90": 3.06,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.3,
+      "pct_backward": 0.3,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 3167,
+      "count": 53,
+      "per90": 16.22,
+      "pct_forward": 0.075,
+      "pct_lateral": 0.358,
+      "pct_backward": 0.566,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5570,
+      "to": 6322,
+      "count": 26,
+      "per90": 7.96,
+      "pct_forward": 0.923,
+      "pct_lateral": 0.077,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 12034,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5579,
+      "to": 6322,
+      "count": 45,
+      "per90": 13.78,
+      "pct_forward": 0.044,
+      "pct_lateral": 0.311,
+      "pct_backward": 0.644,
+      "direction_class": "backward"
+    },
+    {
+      "from": 12034,
+      "to": 6324,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 5579,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.125,
+      "pct_lateral": 0.375,
+      "pct_backward": 0.5,
+      "direction_class": "backward"
+    },
+    {
+      "from": 8400,
+      "to": 5562,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 5562,
+      "count": 9,
+      "per90": 2.76,
+      "pct_forward": 0.556,
+      "pct_lateral": 0.111,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 12034,
+      "count": 15,
+      "per90": 4.59,
+      "pct_forward": 0.8,
+      "pct_lateral": 0.133,
+      "pct_backward": 0.067,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 5579,
+      "count": 10,
+      "per90": 3.06,
+      "pct_forward": 0.1,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.5,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5579,
+      "to": 3167,
+      "count": 36,
+      "per90": 11.02,
+      "pct_forward": 0.056,
+      "pct_lateral": 0.389,
+      "pct_backward": 0.556,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 10287,
+      "count": 27,
+      "per90": 8.27,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.296,
+      "pct_backward": 0.037,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 6324,
+      "count": 9,
+      "per90": 2.76,
+      "pct_forward": 0.778,
+      "pct_lateral": 0.222,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5579,
+      "to": 5562,
+      "count": 7,
+      "per90": 2.14,
+      "pct_forward": 0.857,
+      "pct_lateral": 0.143,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 8400,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.375,
+      "pct_lateral": 0.375,
+      "pct_backward": 0.25,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 5579,
+      "count": 44,
+      "per90": 13.47,
+      "pct_forward": 0.614,
+      "pct_lateral": 0.295,
+      "pct_backward": 0.091,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 6324,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.75,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6324,
+      "to": 12034,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5570,
+      "to": 39565,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 10287,
+      "count": 16,
+      "per90": 4.9,
+      "pct_forward": 0.188,
+      "pct_lateral": 0.438,
+      "pct_backward": 0.375,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 10287,
+      "to": 12034,
+      "count": 13,
+      "per90": 3.98,
+      "pct_forward": 0.692,
+      "pct_lateral": 0.154,
+      "pct_backward": 0.154,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 12034,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5570,
+      "to": 8400,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 5570,
+      "count": 5,
+      "per90": 1.53,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 8400,
+      "to": 39565,
+      "count": 11,
+      "per90": 3.37,
+      "pct_forward": 0.273,
+      "pct_lateral": 0.545,
+      "pct_backward": 0.182,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 10287,
+      "to": 3167,
+      "count": 21,
+      "per90": 6.43,
+      "pct_forward": 0.048,
+      "pct_lateral": 0.095,
+      "pct_backward": 0.857,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 5562,
+      "count": 13,
+      "per90": 3.98,
+      "pct_forward": 0.923,
+      "pct_lateral": 0.077,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 6322,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 8400,
+      "count": 14,
+      "per90": 4.29,
+      "pct_forward": 0.929,
+      "pct_lateral": 0.071,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 5570,
+      "count": 7,
+      "per90": 2.14,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 8546,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 3053,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.333,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 39565,
+      "to": 3053,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.125,
+      "pct_lateral": 0.875,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3053,
+      "to": 6324,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 12034,
+      "to": 8400,
+      "count": 15,
+      "per90": 4.59,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.467,
+      "pct_backward": 0.133,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 12034,
+      "to": 6322,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 39565,
+      "to": 8546,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3053,
+      "to": 39565,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.667,
+      "pct_lateral": 0.333,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 8546,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.25,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 5579,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5579,
+      "to": 8400,
+      "count": 17,
+      "per90": 5.2,
+      "pct_forward": 0.765,
+      "pct_lateral": 0.235,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 3167,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3053,
+      "to": 6322,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 6322,
+      "to": 3053,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.875,
+      "pct_lateral": 0.125,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 12034,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3053,
+      "to": 5579,
+      "count": 11,
+      "per90": 3.37,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.455,
+      "pct_backward": 0.545,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5579,
+      "to": 8546,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6322,
+      "to": 24118,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.5,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 39565,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 24118,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 3167,
+      "count": 33,
+      "per90": 10.1,
+      "pct_forward": 0.03,
+      "pct_lateral": 0.394,
+      "pct_backward": 0.576,
+      "direction_class": "backward"
+    },
+    {
+      "from": 24118,
+      "to": 3053,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 5579,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.333,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5570,
+      "to": 24118,
+      "count": 22,
+      "per90": 6.73,
+      "pct_forward": 0.864,
+      "pct_lateral": 0.136,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 5570,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 12034,
+      "to": 8966,
+      "count": 7,
+      "per90": 2.14,
+      "pct_forward": 0.714,
+      "pct_lateral": 0.286,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 39565,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.75,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 8966,
+      "to": 12034,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 8966,
+      "to": 5562,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.75,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5562,
+      "to": 3167,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 24118,
+      "to": 12034,
+      "count": 24,
+      "per90": 7.35,
+      "pct_forward": 0.833,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 12034,
+      "to": 24118,
+      "count": 23,
+      "per90": 7.04,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.043,
+      "pct_backward": 0.957,
+      "direction_class": "backward"
+    },
+    {
+      "from": 24118,
+      "to": 5579,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.417,
+      "pct_lateral": 0.417,
+      "pct_backward": 0.167,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3167,
+      "to": 24118,
+      "count": 25,
+      "per90": 7.65,
+      "pct_forward": 0.64,
+      "pct_lateral": 0.36,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 10287,
+      "count": 13,
+      "per90": 3.98,
+      "pct_forward": 0.538,
+      "pct_lateral": 0.385,
+      "pct_backward": 0.077,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 39565,
+      "count": 5,
+      "per90": 1.53,
+      "pct_forward": 0.8,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5570,
+      "to": 5562,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 6322,
+      "count": 22,
+      "per90": 6.73,
+      "pct_forward": 0.091,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.409,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 8400,
+      "to": 6322,
+      "count": 7,
+      "per90": 2.14,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.143,
+      "pct_backward": 0.857,
+      "direction_class": "backward"
+    },
+    {
+      "from": 6322,
+      "to": 8966,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 24118,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 10287,
+      "to": 24118,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.167,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.667,
+      "direction_class": "backward"
+    },
+    {
+      "from": 10287,
+      "to": 5562,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5579,
+      "to": 24118,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.083,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.417,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 39565,
+      "to": 5579,
+      "count": 10,
+      "per90": 3.06,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.4,
+      "pct_backward": 0.6,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3167,
+      "to": 10287,
+      "count": 23,
+      "per90": 7.04,
+      "pct_forward": 0.739,
+      "pct_lateral": 0.217,
+      "pct_backward": 0.043,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5570,
+      "to": 10287,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5570,
+      "to": 5579,
+      "count": 15,
+      "per90": 4.59,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 8966,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 24118,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3167,
+      "to": 5562,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 39565,
+      "count": 20,
+      "per90": 6.12,
+      "pct_forward": 0.75,
+      "pct_lateral": 0.2,
+      "pct_backward": 0.05,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 8966,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 8400,
+      "to": 12034,
+      "count": 12,
+      "per90": 3.67,
+      "pct_forward": 0.417,
+      "pct_lateral": 0.25,
+      "pct_backward": 0.333,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 5579,
+      "count": 8,
+      "per90": 2.45,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.375,
+      "pct_backward": 0.625,
+      "direction_class": "backward"
+    },
+    {
+      "from": 8400,
+      "to": 8966,
+      "count": 6,
+      "per90": 1.84,
+      "pct_forward": 0.833,
+      "pct_lateral": 0.167,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 8400,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.25,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5579,
+      "to": 8966,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 6322,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 8400,
+      "to": 3167,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 24118,
+      "to": 5562,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 6322,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3167,
+      "to": 8400,
+      "count": 5,
+      "per90": 1.53,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 24118,
+      "to": 8966,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 8966,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 6324,
+      "to": 6322,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.75,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3167,
+      "to": 6324,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5579,
+      "to": 6324,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 8400,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 24118,
+      "to": 6324,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 24118,
+      "to": 8546,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 6324,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 39565,
+      "to": 6322,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.5,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 39565,
+      "to": 5570,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5579,
+      "to": 3053,
+      "count": 13,
+      "per90": 3.98,
+      "pct_forward": 0.615,
+      "pct_lateral": 0.231,
+      "pct_backward": 0.154,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3053,
+      "to": 10287,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 6324,
+      "to": 3053,
+      "count": 5,
+      "per90": 1.53,
+      "pct_forward": 0.4,
+      "pct_lateral": 0.6,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3167,
+      "to": 3053,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 10287,
+      "to": 3053,
+      "count": 4,
+      "per90": 1.22,
+      "pct_forward": 0.25,
+      "pct_lateral": 0.75,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 3053,
+      "to": 5562,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3053,
+      "to": 8400,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 39565,
+      "to": 6324,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 6324,
+      "to": 39565,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 5562,
+      "to": 3053,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 8546,
+      "to": 39565,
+      "count": 3,
+      "per90": 0.92,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.667,
+      "pct_backward": 0.333,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5562,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 5562,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3053,
+      "to": 3167,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3053,
+      "to": 8966,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8546,
+      "to": 8966,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 39565,
+      "to": 8966,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 3053,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.5,
+      "pct_lateral": 0.5,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 3053,
+      "to": 8546,
+      "count": 2,
+      "per90": 0.61,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 5570,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8966,
+      "to": 3167,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 3167,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8400,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 1.0,
+      "pct_backward": 0.0,
+      "direction_class": "lateral"
+    },
+    {
+      "from": 8966,
+      "to": 8546,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    },
+    {
+      "from": 8400,
+      "to": 5570,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 0.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 1.0,
+      "direction_class": "backward"
+    },
+    {
+      "from": 5570,
+      "to": 8966,
+      "count": 1,
+      "per90": 0.31,
+      "pct_forward": 1.0,
+      "pct_lateral": 0.0,
+      "pct_backward": 0.0,
+      "direction_class": "forward"
+    }
+  ],
+  "clusters": [
+    {
+      "rank": 1,
+      "z_score": 8.75,
+      "player_ids": [
+        3167,
+        5579,
+        6322
+      ],
+      "label": "Central recycle triangle",
+      "description": "Rüdiger–Kimmich–Süle (midfield recycle)"
+    },
+    {
+      "rank": 2,
+      "z_score": 6.17,
+      "player_ids": [
+        3167,
+        5570,
+        6322
+      ],
+      "label": "Central reset triangle",
+      "description": "Rüdiger–Neuer–Süle (deep reset)"
+    },
+    {
+      "rank": 3,
+      "z_score": 5.99,
+      "player_ids": [
+        3167,
+        6322,
+        10287
+      ],
+      "label": "Central recycle triangle",
+      "description": "Rüdiger–Süle–Gündoğan (midfield recycle)"
+    },
+    {
+      "rank": 4,
+      "z_score": 5.01,
+      "player_ids": [
+        5579,
+        6322,
+        10287
+      ],
+      "label": "Central progression triangle",
+      "description": "Kimmich–Süle–Gündoğan (midfield progression)"
+    },
+    {
+      "rank": 5,
+      "z_score": 4.56,
+      "player_ids": [
+        3167,
+        6322,
+        24118
+      ],
+      "label": "Central recycle triangle",
+      "description": "Rüdiger–Süle–Schlotterbeck (midfield recycle)"
+    }
+  ]
+}
