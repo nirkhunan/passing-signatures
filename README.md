@@ -1,5 +1,7 @@
 # Passing Signatures
 
+### ▶ [View the live site → nirkhunan.github.io/passing-signatures](https://nirkhunan.github.io/passing-signatures/)
+
 **Every national team passes with an accent.** Passing networks and "signature
 triangles" for every team at the 2018, 2022 and 2026 men's World Cups — 112 teams,
 58 nations — told as a short slide-by-slide story, then opened up as an explorer.
@@ -8,7 +10,7 @@ triangles" for every team at the 2018, 2022 and 2026 men's World Cups — 112 te
 
 - **Story** — a guided sequence on one changing stage: Spain's 2026 network, its
   signature triangles, every team at all three World Cups as a dot chart, the champions,
-  Morocco and South Korea's change, and 14 players who were in a signature triangle at
+  Morocco and South Korea's change, and 15 players who were in a signature triangle at
   all three tournaments (pick any of them).
 - **Explorer** — year tabs (2018 / 2022 / 2026), any team, the same pitch view for every
   year. Find a player and follow him across tournaments; isolate a triangle; filter by
