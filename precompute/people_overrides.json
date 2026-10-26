@@ -1,0 +1,16 @@
+{
+  "_note": "Cross-tournament links that are NOT exact name matches. Each was checked by hand (2026-10-13). Exact same-name matches within a national team link automatically; anything else links only if listed under 'confirmed'.",
+  "confirmed": [
+    {"team": "Brazil", "fifa_2026_name": "NEYMAR JR", "earlier_name": "Neymar"},
+    {"team": "Brazil", "fifa_2026_name": "EDERSON SILVA", "earlier_name": "Ederson Moraes", "why": "goalkeeper #23 in both"},
+    {"team": "Colombia", "fifa_2026_name": "Juan QUINTERO", "earlier_name": "Juan Fernando Quintero"},
+    {"team": "Panama", "fifa_2026_name": "Eric DAVIS", "earlier_name": "Erick Davis"},
+    {"team": "Panama", "fifa_2026_name": "Jose Luis RODRIGUEZ", "earlier_name": "José Rodríguez"}
+  ],
+  "rejected": [
+    {"team": "South Korea", "fifa_2026_name": "PARK Jinseob", "earlier_name": "Park Joo-Ho"},
+    {"team": "Croatia", "fifa_2026_name": "Marco PASALIC", "earlier_name": "Mario Pašalić"},
+    {"team": "Senegal", "fifa_2026_name": "Bara Sapoko NDIAYE", "earlier_name": "Badou Ndiaye"},
+    {"team": "Brazil", "fifa_2026_name": "DANILO SANTOS", "earlier_name": "Danilo"}
+  ]
+}

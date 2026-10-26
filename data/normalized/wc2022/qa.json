@@ -1,0 +1,81 @@
+{
+ "issues": [
+  {
+   "match_id": "wc2022-2022-12-03-argentina-australia",
+   "team": "Australia",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-12-05-brazil-south_korea",
+   "team": "South Korea",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-12-06-morocco-spain",
+   "team": "Spain",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-12-09-croatia-brazil",
+   "team": "Brazil",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-11-26-tunisia-australia",
+   "team": "Australia",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-11-27-spain-germany",
+   "team": "Spain",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-11-28-south_korea-ghana",
+   "team": "South Korea",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-11-29-wales-england",
+   "team": "Wales",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-11-30-australia-denmark",
+   "team": "Australia",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  },
+  {
+   "match_id": "wc2022-2022-12-01-costa_rica-germany",
+   "team": "Germany",
+   "issue": "in FIFA matrix but no sub-on minute in FIFA lineup",
+   "player": "KLOSTERMANN Lukas"
+  },
+  {
+   "match_id": "wc2022-2022-12-02-south_korea-portugal",
+   "team": "South Korea",
+   "issue": "FIFA matrix omits the starting goalkeeper",
+   "resolution": "GK edges filled from StatsBomb"
+  }
+ ],
+ "crosscheck_fifa_vs_statsbomb": {
+  "pairs_compared": 14967,
+  "fifa_total": 49800,
+  "statsbomb_total_same_pairs": 53065,
+  "exact_match_share": 0.303,
+  "within_2_share": 0.864,
+  "pearson_r": 0.89,
+  "unmatched_fifa_players": 0
+ },
+ "gk_gap_fill_edges": 125,
+ "match_id_mismatches": []
+}

@@ -30,15 +30,9 @@ export default class ErrorBoundary extends Component {
   render() {
     if (this.state.error) {
       return (
-        <div className="absolute inset-0 flex items-center justify-center px-8 text-center">
-          <div>
-            <p className="font-display text-lg font-semibold text-text">
-              Couldn’t render this view.
-            </p>
-            <p className="mt-1 font-body text-sm text-text-muted">
-              Try picking another team or reloading the page.
-            </p>
-          </div>
+        <div className="error-view">
+          <p className="error-title">Couldn’t render this view.</p>
+          <p>Try another team or reload the page.</p>
         </div>
       )
     }

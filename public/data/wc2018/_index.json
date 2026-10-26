@@ -1,0 +1,172 @@
+{
+ "schema_version": "2.0",
+ "tournament": {
+  "id": "wc2018",
+  "name": "2018 FIFA World Cup",
+  "host": "Russia",
+  "source": "StatsBomb Open Data",
+  "team_count": 32
+ },
+ "teams": [
+  {
+   "name": "Argentina",
+   "slug": "argentina",
+   "file": "argentina.json"
+  },
+  {
+   "name": "Australia",
+   "slug": "australia",
+   "file": "australia.json"
+  },
+  {
+   "name": "Belgium",
+   "slug": "belgium",
+   "file": "belgium.json"
+  },
+  {
+   "name": "Brazil",
+   "slug": "brazil",
+   "file": "brazil.json"
+  },
+  {
+   "name": "Colombia",
+   "slug": "colombia",
+   "file": "colombia.json"
+  },
+  {
+   "name": "Costa Rica",
+   "slug": "costa_rica",
+   "file": "costa_rica.json"
+  },
+  {
+   "name": "Croatia",
+   "slug": "croatia",
+   "file": "croatia.json"
+  },
+  {
+   "name": "Denmark",
+   "slug": "denmark",
+   "file": "denmark.json"
+  },
+  {
+   "name": "Egypt",
+   "slug": "egypt",
+   "file": "egypt.json"
+  },
+  {
+   "name": "England",
+   "slug": "england",
+   "file": "england.json"
+  },
+  {
+   "name": "France",
+   "slug": "france",
+   "file": "france.json"
+  },
+  {
+   "name": "Germany",
+   "slug": "germany",
+   "file": "germany.json"
+  },
+  {
+   "name": "Iceland",
+   "slug": "iceland",
+   "file": "iceland.json"
+  },
+  {
+   "name": "Iran",
+   "slug": "iran",
+   "file": "iran.json"
+  },
+  {
+   "name": "Japan",
+   "slug": "japan",
+   "file": "japan.json"
+  },
+  {
+   "name": "Mexico",
+   "slug": "mexico",
+   "file": "mexico.json"
+  },
+  {
+   "name": "Morocco",
+   "slug": "morocco",
+   "file": "morocco.json"
+  },
+  {
+   "name": "Nigeria",
+   "slug": "nigeria",
+   "file": "nigeria.json"
+  },
+  {
+   "name": "Panama",
+   "slug": "panama",
+   "file": "panama.json"
+  },
+  {
+   "name": "Peru",
+   "slug": "peru",
+   "file": "peru.json"
+  },
+  {
+   "name": "Poland",
+   "slug": "poland",
+   "file": "poland.json"
+  },
+  {
+   "name": "Portugal",
+   "slug": "portugal",
+   "file": "portugal.json"
+  },
+  {
+   "name": "Russia",
+   "slug": "russia",
+   "file": "russia.json"
+  },
+  {
+   "name": "Saudi Arabia",
+   "slug": "saudi_arabia",
+   "file": "saudi_arabia.json"
+  },
+  {
+   "name": "Senegal",
+   "slug": "senegal",
+   "file": "senegal.json"
+  },
+  {
+   "name": "Serbia",
+   "slug": "serbia",
+   "file": "serbia.json"
+  },
+  {
+   "name": "South Korea",
+   "slug": "south_korea",
+   "file": "south_korea.json"
+  },
+  {
+   "name": "Spain",
+   "slug": "spain",
+   "file": "spain.json"
+  },
+  {
+   "name": "Sweden",
+   "slug": "sweden",
+   "file": "sweden.json"
+  },
+  {
+   "name": "Switzerland",
+   "slug": "switzerland",
+   "file": "switzerland.json"
+  },
+  {
+   "name": "Tunisia",
+   "slug": "tunisia",
+   "file": "tunisia.json"
+  },
+  {
+   "name": "Uruguay",
+   "slug": "uruguay",
+   "file": "uruguay.json"
+  }
+ ]
+}

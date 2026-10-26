@@ -1,0 +1,117 @@
+{
+ "Center Attacking Midfield": {
+  "depth": 0.632,
+  "width": 0.47,
+  "n": 43
+ },
+ "Center Back": {
+  "depth": 0.212,
+  "width": 0.5,
+  "n": 32
+ },
+ "Center Defensive Midfield": {
+  "depth": 0.421,
+  "width": 0.495,
+  "n": 54
+ },
+ "Center Forward": {
+  "depth": 0.845,
+  "width": 0.502,
+  "n": 93
+ },
+ "Goalkeeper": {
+  "depth": 0.0,
+  "width": 0.5,
+  "n": 128
+ },
+ "Left Attacking Midfield": {
+  "depth": 0.695,
+  "width": 0.032,
+  "n": 7
+ },
+ "Left Back": {
+  "depth": 0.235,
+  "width": 0.0,
+  "n": 96
+ },
+ "Left Center Back": {
+  "depth": 0.216,
+  "width": 0.19,
+  "n": 128
+ },
+ "Left Center Forward": {
+  "depth": 0.824,
+  "width": 0.274,
+  "n": 35
+ },
+ "Left Center Midfield": {
+  "depth": 0.498,
+  "width": 0.236,
+  "n": 54
+ },
+ "Left Defensive Midfield": {
+  "depth": 0.46,
+  "width": 0.299,
+  "n": 74
+ },
+ "Left Midfield": {
+  "depth": 0.564,
+  "width": 0.017,
+  "n": 27
+ },
+ "Left Wing": {
+  "depth": 0.675,
+  "width": 0.0,
+  "n": 76
+ },
+ "Left Wing Back": {
+  "depth": 0.413,
+  "width": 0.0,
+  "n": 32
+ },
+ "Right Attacking Midfield": {
+  "depth": 0.746,
+  "width": 0.889,
+  "n": 7
+ },
+ "Right Back": {
+  "depth": 0.24,
+  "width": 1.0,
+  "n": 96
+ },
+ "Right Center Back": {
+  "depth": 0.216,
+  "width": 0.818,
+  "n": 128
+ },
+ "Right Center Forward": {
+  "depth": 0.835,
+  "width": 0.726,
+  "n": 35
+ },
+ "Right Center Midfield": {
+  "depth": 0.494,
+  "width": 0.76,
+  "n": 54
+ },
+ "Right Defensive Midfield": {
+  "depth": 0.461,
+  "width": 0.723,
+  "n": 74
+ },
+ "Right Midfield": {
+  "depth": 0.573,
+  "width": 0.992,
+  "n": 27
+ },
+ "Right Wing": {
+  "depth": 0.689,
+  "width": 0.99,
+  "n": 76
+ },
+ "Right Wing Back": {
+  "depth": 0.413,
+  "width": 1.0,
+  "n": 32
+ }
+}

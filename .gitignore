@@ -6,3 +6,10 @@ dist
 precompute/.venv
 __pycache__/
 *.pyc
+
+# Raw source downloads (FIFA PDFs, StatsBomb JSON) — rebuilt by precompute scripts
+raw/
+
+# Local build leftovers
+vite.config.js.timestamp-*
+*.zip

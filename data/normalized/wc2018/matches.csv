@@ -1,0 +1,65 @@
+match_id,date,stage,home,away,home_score,away_score,length,venue,source,source_file,statsbomb_match_id
+wc2018-2018-06-14-russia-saudi_arabia,2018-06-14,Group Stage,Russia,Saudi Arabia,5,0,90,Stadion Luzhniki,StatsBomb Open Data,,7525
+wc2018-2018-06-15-egypt-uruguay,2018-06-15,Group Stage,Egypt,Uruguay,0,1,90,Ekaterinburg Arena,StatsBomb Open Data,,7578
+wc2018-2018-06-15-morocco-iran,2018-06-15,Group Stage,Morocco,Iran,0,1,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,7577
+wc2018-2018-06-15-portugal-spain,2018-06-15,Group Stage,Portugal,Spain,3,3,90,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,7576
+wc2018-2018-06-16-france-australia,2018-06-16,Group Stage,France,Australia,2,1,90,Ak Bars Arena,StatsBomb Open Data,,7530
+wc2018-2018-06-16-argentina-iceland,2018-06-16,Group Stage,Argentina,Iceland,1,1,90,Otkritie Bank Arena,StatsBomb Open Data,,7531
+wc2018-2018-06-16-peru-denmark,2018-06-16,Group Stage,Peru,Denmark,0,1,90,Mordovia Arena,StatsBomb Open Data,,7532
+wc2018-2018-06-16-croatia-nigeria,2018-06-16,Group Stage,Croatia,Nigeria,2,0,90,Rostec Arena,StatsBomb Open Data,,7529
+wc2018-2018-06-17-costa_rica-serbia,2018-06-17,Group Stage,Costa Rica,Serbia,0,1,90,Solidarnost Arena,StatsBomb Open Data,,7535
+wc2018-2018-06-17-germany-mexico,2018-06-17,Group Stage,Germany,Mexico,0,1,90,Stadion Luzhniki,StatsBomb Open Data,,7534
+wc2018-2018-06-17-brazil-switzerland,2018-06-17,Group Stage,Brazil,Switzerland,1,1,90,Rostov Arena,StatsBomb Open Data,,7533
+wc2018-2018-06-18-sweden-south_korea,2018-06-18,Group Stage,Sweden,South Korea,1,0,90,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,7538
+wc2018-2018-06-18-belgium-panama,2018-06-18,Group Stage,Belgium,Panama,3,0,90,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,7536
+wc2018-2018-06-18-tunisia-england,2018-06-18,Group Stage,Tunisia,England,1,2,90,Volgograd Arena,StatsBomb Open Data,,7537
+wc2018-2018-06-19-colombia-japan,2018-06-19,Group Stage,Colombia,Japan,1,2,90,Mordovia Arena,StatsBomb Open Data,,7541
+wc2018-2018-06-19-poland-senegal,2018-06-19,Group Stage,Poland,Senegal,1,2,90,Otkritie Bank Arena,StatsBomb Open Data,,7539
+wc2018-2018-06-19-russia-egypt,2018-06-19,Group Stage,Russia,Egypt,3,1,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,7540
+wc2018-2018-06-20-portugal-morocco,2018-06-20,Group Stage,Portugal,Morocco,1,0,90,Stadion Luzhniki,StatsBomb Open Data,,7542
+wc2018-2018-06-20-uruguay-saudi_arabia,2018-06-20,Group Stage,Uruguay,Saudi Arabia,1,0,90,Rostov Arena,StatsBomb Open Data,,7544
+wc2018-2018-06-20-iran-spain,2018-06-20,Group Stage,Iran,Spain,0,1,90,Ak Bars Arena,StatsBomb Open Data,,7543
+wc2018-2018-06-21-denmark-australia,2018-06-21,Group Stage,Denmark,Australia,1,1,90,Solidarnost Arena,StatsBomb Open Data,,7547
+wc2018-2018-06-21-france-peru,2018-06-21,Group Stage,France,Peru,1,0,90,Ekaterinburg Arena,StatsBomb Open Data,,7546
+wc2018-2018-06-21-argentina-croatia,2018-06-21,Group Stage,Argentina,Croatia,0,3,90,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,7545
+wc2018-2018-06-22-brazil-costa_rica,2018-06-22,Group Stage,Brazil,Costa Rica,2,0,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,7548
+wc2018-2018-06-22-nigeria-iceland,2018-06-22,Group Stage,Nigeria,Iceland,2,0,90,Volgograd Arena,StatsBomb Open Data,,7549
+wc2018-2018-06-22-serbia-switzerland,2018-06-22,Group Stage,Serbia,Switzerland,1,2,90,Rostec Arena,StatsBomb Open Data,,7550
+wc2018-2018-06-23-belgium-tunisia,2018-06-23,Group Stage,Belgium,Tunisia,5,2,90,Otkritie Bank Arena,StatsBomb Open Data,,7552
+wc2018-2018-06-23-south_korea-mexico,2018-06-23,Group Stage,South Korea,Mexico,1,2,90,Rostov Arena,StatsBomb Open Data,,7553
+wc2018-2018-06-23-germany-sweden,2018-06-23,Group Stage,Germany,Sweden,2,1,90,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,7551
+wc2018-2018-06-24-england-panama,2018-06-24,Group Stage,England,Panama,6,1,90,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,7554
+wc2018-2018-06-24-japan-senegal,2018-06-24,Group Stage,Japan,Senegal,2,2,90,Ekaterinburg Arena,StatsBomb Open Data,,7556
+wc2018-2018-06-24-poland-colombia,2018-06-24,Group Stage,Poland,Colombia,0,3,90,Ak Bars Arena,StatsBomb Open Data,,7555
+wc2018-2018-06-25-uruguay-russia,2018-06-25,Group Stage,Uruguay,Russia,3,0,90,Solidarnost Arena,StatsBomb Open Data,,7558
+wc2018-2018-06-25-saudi_arabia-egypt,2018-06-25,Group Stage,Saudi Arabia,Egypt,2,1,90,Volgograd Arena,StatsBomb Open Data,,7559
+wc2018-2018-06-25-iran-portugal,2018-06-25,Group Stage,Iran,Portugal,1,1,90,Mordovia Arena,StatsBomb Open Data,,7557
+wc2018-2018-06-25-spain-morocco,2018-06-25,Group Stage,Spain,Morocco,2,2,90,Rostec Arena,StatsBomb Open Data,,7560
+wc2018-2018-06-26-australia-peru,2018-06-26,Group Stage,Australia,Peru,0,2,90,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,7562
+wc2018-2018-06-26-denmark-france,2018-06-26,Group Stage,Denmark,France,0,0,90,Stadion Luzhniki,StatsBomb Open Data,,7563
+wc2018-2018-06-26-iceland-croatia,2018-06-26,Group Stage,Iceland,Croatia,1,2,90,Rostov Arena,StatsBomb Open Data,,7561
+wc2018-2018-06-26-nigeria-argentina,2018-06-26,Group Stage,Nigeria,Argentina,1,2,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,7564
+wc2018-2018-06-27-mexico-sweden,2018-06-27,Group Stage,Mexico,Sweden,0,3,90,Ekaterinburg Arena,StatsBomb Open Data,,7566
+wc2018-2018-06-27-south_korea-germany,2018-06-27,Group Stage,South Korea,Germany,2,0,90,Ak Bars Arena,StatsBomb Open Data,,7567
+wc2018-2018-06-27-serbia-brazil,2018-06-27,Group Stage,Serbia,Brazil,0,2,90,Otkritie Bank Arena,StatsBomb Open Data,,7565
+wc2018-2018-06-27-switzerland-costa_rica,2018-06-27,Group Stage,Switzerland,Costa Rica,2,2,90,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,7568
+wc2018-2018-06-28-japan-poland,2018-06-28,Group Stage,Japan,Poland,0,1,90,Volgograd Arena,StatsBomb Open Data,,7572
+wc2018-2018-06-28-senegal-colombia,2018-06-28,Group Stage,Senegal,Colombia,0,1,90,Solidarnost Arena,StatsBomb Open Data,,7571
+wc2018-2018-06-28-panama-tunisia,2018-06-28,Group Stage,Panama,Tunisia,1,2,90,Mordovia Arena,StatsBomb Open Data,,7569
+wc2018-2018-06-28-england-belgium,2018-06-28,Group Stage,England,Belgium,0,1,90,Rostec Arena,StatsBomb Open Data,,7570
+wc2018-2018-06-30-france-argentina,2018-06-30,Round of 16,France,Argentina,4,3,90,Ak Bars Arena,StatsBomb Open Data,,7580
+wc2018-2018-06-30-uruguay-portugal,2018-06-30,Round of 16,Uruguay,Portugal,2,1,90,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,7579
+wc2018-2018-07-01-spain-russia,2018-07-01,Round of 16,Spain,Russia,1,1,120,Stadion Luzhniki,StatsBomb Open Data,,7582
+wc2018-2018-07-01-croatia-denmark,2018-07-01,Round of 16,Croatia,Denmark,1,1,120,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,7581
+wc2018-2018-07-02-brazil-mexico,2018-07-02,Round of 16,Brazil,Mexico,2,0,90,Solidarnost Arena,StatsBomb Open Data,,7583
+wc2018-2018-07-02-belgium-japan,2018-07-02,Round of 16,Belgium,Japan,3,2,90,Rostov Arena,StatsBomb Open Data,,7584
+wc2018-2018-07-03-sweden-switzerland,2018-07-03,Round of 16,Sweden,Switzerland,1,0,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,7586
+wc2018-2018-07-03-colombia-england,2018-07-03,Round of 16,Colombia,England,1,1,120,Otkritie Bank Arena,StatsBomb Open Data,,7585
+wc2018-2018-07-06-uruguay-france,2018-07-06,Quarter-finals,Uruguay,France,0,2,90,Stadion Nizhny Novgorod (Nizhniy Novgorod),StatsBomb Open Data,,8649
+wc2018-2018-07-06-brazil-belgium,2018-07-06,Quarter-finals,Brazil,Belgium,1,2,90,Ak Bars Arena,StatsBomb Open Data,,8650
+wc2018-2018-07-07-sweden-england,2018-07-07,Quarter-finals,Sweden,England,0,2,90,Solidarnost Arena,StatsBomb Open Data,,8651
+wc2018-2018-07-07-russia-croatia,2018-07-07,Quarter-finals,Russia,Croatia,2,2,120,Olimpiyskiy Stadion Fisht,StatsBomb Open Data,,8652
+wc2018-2018-07-10-france-belgium,2018-07-10,Semi-finals,France,Belgium,1,0,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,8655
+wc2018-2018-07-11-croatia-england,2018-07-11,Semi-finals,Croatia,England,2,1,120,Stadion Luzhniki,StatsBomb Open Data,,8656
+wc2018-2018-07-14-belgium-england,2018-07-14,3rd Place Final,Belgium,England,2,0,90,Saint-Petersburg Stadium ( Gazprom Arena ),StatsBomb Open Data,,8657
+wc2018-2018-07-15-france-croatia,2018-07-15,Final,France,Croatia,4,2,90,Stadion Luzhniki,StatsBomb Open Data,,8658

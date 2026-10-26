@@ -1,3 +1,4 @@
 statsbombpy
 networkx
 numpy
+pymupdf

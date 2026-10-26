@@ -1,79 +1,90 @@
 # Passing Signatures — Project Memory
 
-Interactive passing-network explorer for FIFA World Cup 2022. Full spec lives in
-`passing-signatures-prd.md` (the PRD is the source of truth; this file is the
-short list of locked constraints that must survive across sessions).
+Passing-network story + explorer for the **2018, 2022 and 2026 FIFA World Cups**
+(112 team-tournaments, 58 nations). v1 (WC2022 only, StatsBomb) is what `main` / the
+live site still shows; the three-tournament redesign lives on branch `pudding-redesign`
+(2026-10-13). `passing-signatures-prd.md` is the v1 spec; where it conflicts with the
+decisions below, the decisions below win (user-approved 2026-10-13).
 
 ## Stack (locked)
-- **Frontend:** React 18, `d3-force`, Tailwind CSS, Vite.
+- **Frontend:** React 18, `d3-force`, Vite. Plain CSS in `src/index.css` (Tailwind is
+  still installed but no longer used by the new UI).
 - **Fully client-side. No backend. No database. No localStorage / no browser storage of any kind.**
-- **Precompute (build-time only, never runs in browser):** Python with `statsbombpy`,
-  `networkx`, `numpy`. Generates static JSON that gets bundled.
+- **Precompute (build-time only, never in the browser):** Python. `pymupdf` (FIFA PDFs),
+  `networkx`, `numpy`. StatsBomb JSON is read directly from the open-data repo files.
 
-## Data contract (locked)
-- The normalized schema in **PRD Section 6** is THE contract. The frontend reads ONLY
-  that shape — nothing else.
-- **Never change the schema without bumping `schema_version`** (currently `"1.0"`).
-- One JSON file per team in `public/data/<tournament>/<team>.json`, plus `_index.json`.
+## Data pipeline
+`raw/` (gitignored, ≈1.2 GB: FIFA PDFs + StatsBomb JSON)
+→ `precompute/parse_all_fifa.py` (uses `fifa_pdf.py`) → `raw/fifa<year>.json`
+→ `precompute/normalize.py` → `data/normalized/<wc2018|wc2022|wc2026>/` (+ `qa.json`)
+→ `precompute/build_site_data.py` → `public/data/` (contract `site_schema.py`, **v2.0**)
+→ `precompute/build_story_extras.py` → `public/data/triangles.json`, `players.json`,
+  `shares.json` (share of triangles and of all passes per type, for the stacked-area charts).
+`build_site_data.py --reuse-clusters` skips the slow null-model step (≈1 h for all teams)
+and only refreshes names/labels/metrics.
 
-## Phase-2 seam (locked)
-- No literal `"2022"` hardcoded anywhere in `src/` outside the data path.
-- Data paths are **tournament-keyed**: `/data/<tournament>/` from day one.
-- Player IDs are the cross-tournament join key — never name-match.
-- The Graph component takes a dataset as a prop; it has no hardcoded tournament.
+Sources: 2018 StatsBomb only · 2022 FIFA reports primary + StatsBomb (cross-check r=0.89,
+GK gap-fill where FIFA's matrix omits the keeper, direction extras) · 2026 FIFA reports only.
+Never use the third-party Alamyy/Worldcup26 CSVs — their matrix cells are wrong.
 
-## Theme (locked) — "ink on tactical paper" (light), PRD Section 4
-Use these exact tokens:
-```
---bg:            #F3F6F3   /* faint-green paper (swap to #F6F7F8 only if tint reads off) */
---surface:       #FFFFFF
---border:        #DDE4DF
---node:          #22312A
---node-dim:      #C9D2CC
---edge-forward:  #0F9E8E
---edge-lateral:  #6B7A82
---edge-backward: #7C3AED
---spotlight:     #E0A000
---cluster-1:     #0072B2  --cluster-2: #009E73  --cluster-3: #D55E00
---cluster-4:     #CC79A7  --cluster-5: #56B4E9
---text:          #22312A  --text-muted: #6B7A82
---isolate-veil:  #E8ECE9
-```
-Type (all via Google Fonts): display **Archivo** (Expanded 700 for hero),
-body **Hanken Grotesk**, data/numbers **JetBrains Mono**.
+## Locked data decisions
+- **Same look every year (user):** players on **formation slots** (minutes-weighted; subs
+  inherit the replaced player's slot) for all three tournaments — not average positions.
+- **Pass direction only where real (user):** StatsBomb locations (2018 all, 2022 ~87% of
+  links). 2026 has no direction — never estimate it.
+- **Cross-tournament players (user approved name matching, 2026-10-13):** 2018↔2022 by
+  StatsBomb id; →2026 by exact name within the same national team. Anything looser must be
+  hand-confirmed in `precompute/people_overrides.json` (look-alikes listed as rejected).
+  Person ids remain the join key in the frontend.
+- **Country identity, not 58 colours (user asked; agreed):** dots are coloured by
+  confederation (6 hues) and carry FIFA 3-letter codes; a "highlight a country" search
+  joins one nation across years.
+- 2018 team pass volumes scaled ×0.938 onto FIFA counting (measured on 2022 pairs).
+- 90-minute floor; per-90 normalization; directed triads; exactly 5 clusters per team by
+  z-score vs. a degree-preserving null model (1,000 nulls); minutes are nominal (90/120, no
+  stoppage) for every source.
+- Story numbers are computed from the data in `src/story.js` — never type figures in by hand.
 
-## Locked data decisions (PRD Section 13)
-- **90-minute floor:** players with < 90 minutes are excluded from `nodes`.
-  (Kept faithfully even though small-sample blowout cameos can top the per-90
-  touch chart — user chose fidelity over forcing Busquets near the top.)
-- **Touches = successful ball receptions** (StatsBomb `Ball Receipt*` with no
-  incomplete outcome) — the chosen reading of PRD §7 "count touch events."
-- **Directed triads** for motif/cluster analysis (passer → recipient flow preserved).
-- **Per-90 normalization** of edge weights, so deep-running teams don't just look denser.
-- Pass direction by Δx in StatsBomb coords: forward if end_x − start_x > +5,
-  backward if < −5, else lateral.
-- Exactly **5 clusters** per team, ranked by z-score vs. a degree-preserving null model.
+## Story/visual decisions (2026-10-13, round 2 — user)
+- Dot charts animate: dots drift in from a scatter and settle over ~4 s (live d3-force,
+  weak pull + heavy drag in `Beeswarm.jsx`); layout changes travel, never jump.
+- Show individuals, not averages (like the Pudding reference): besides teams, there are
+  charts of every signature triangle (sorted into piles by type: back-line / build-up /
+  midfield / attacking) and every player with 90+ minutes. The 2018→2022 trends were
+  re-checked on StatsBomb-only 2022 data (stated in the methods drawer).
+- Two stacked-area slides (reference's decade chart, one plateau per World Cup): triangle
+  types vs. all passes split the same way — they morph into each other to show that
+  passing barely moved while signatures moved back.
+- Progress bar: no outlines; state shown by colour + height only.
+- No native OS controls: dropdowns and search use `Select` / `SearchBox` (`Select.jsx`)
+  in the project's own style; the range slider is restyled too.
 
-## Status (Stages 0–9 complete)
-- App is built and verified through Stage 9. `npm run build` works reliably
-  (~0.5s). An early one-time "hang" was just first-run macOS Gatekeeper
-  verification of Rollup's native arm64 binary — NOT a code bug; ignore it.
-- Dev/build verification on this machine uses a Bash-run dev server on :5173 and
-  `curl` checks — the built-in preview tool is pointed at a different project, so
-  do NOT rely on preview_start here.
-- **Deviations from PRD (user-approved):** Stage 5 gold hover spotlight was
-  dropped (user disliked it) — a lightweight hover *name label* is kept instead.
-- **Added beyond PRD (user requests):** landing page (+ clickable title → intro),
-  line filters (Connections), pass-direction filters, minimum-passes slider,
-  player-label toggle, empty-pitch backdrop.
-- **Glossary** (pass link / cluster / z-score / motif) was built into the
-  Methodology drawer (Stage 8) — done.
-- **Next:** deploy to GitHub (PRD Q5). Not a git repo yet; needs user go for any
-  push/publish. For GitHub Pages project sites, set Vite `base` to the repo name.
+## Theme — crimson ramp (user, 2026-10-13; replaces the cream/ink look)
+Palette: coolors.co/palette/590d22-800f2f-a4133c-c9184a-ff4d6d-ff758f-ff8fa3-ffb3c1-ffccd5-fff0f3.
+Page `#FFF0F3`, ink `#590D22`, muted `#A4133C`, rules `#FFCCD5`/`#FFB3C1`. All tokens live in
+`src/lib/theme.js` (`P.c900…c50`) and `src/index.css`. Single-hue palette, so: categorical
+sets use well-spaced steps, ordered sets follow the ramp (triangle types: back-line darkest →
+attacking brightest), every chart labels its marks, and text on fills uses `textOn()`.
+Reference for structure: pudding.cool/2024/11/love-songs. Type: Archivo / Newsreader /
+JetBrains Mono. Flat — no shadows.
+
+## Story structure (user, 2026-10-13)
+Opening: composite fan-comment card (clearly labelled, links to the real forum threads it
+paraphrases) → real news clips + a real FIFA Media post (short quotes, source + link; the
+Williams 77-pass record is confirmed in our own data) → title → a full-screen lead-in slide
+before every chapter. Visual slides put the text in a left column on desktop (≥1000px).
+Never invent quotes or imitate a real person's post.
+
+## Dev / verification
+- Dev server: entry `passing-signatures` in `~/Desktop/Coding/.claude/launch.json` (port 5215).
+- **iCloud:** ~/Desktop is iCloud-synced and the disk is ~96% full, so macOS offloads
+  project files ("dataless") and `vite` stalls reading them. Until that's fixed (free
+  space / turn off Optimize Mac Storage / move the project off Desktop — the user's call),
+  work in a copy outside iCloud (entries `passing-signatures-scratch`, `-preview`) and
+  write finished files back (writes are fast; reads stall).
 
 ## How we work (this collaborator is not a coder)
 - Explain in plain language; check in at each stage; wait for "go" before building.
-- Ask permission before running commands, installing, or deleting/overwriting files.
-- If the PRD doesn't cover a decision, stop and ask — don't guess.
+- Ask before installing, deleting/overwriting files, committing, or pushing.
+- If a decision isn't covered here, stop and ask — don't guess.
 - Never touch anything outside this project folder.
-- Build in the exact stage order from PRD Section 11 (Stage 0 → Stage 9), verifying each.

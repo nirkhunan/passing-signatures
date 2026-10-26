@@ -1,0 +1,48 @@
+{
+ "order": [
+  "back-line",
+  "build-up",
+  "midfield",
+  "attacking"
+ ],
+ "triangles": {
+  "wc2018": {
+   "back-line": 0.1125,
+   "build-up": 0.6188,
+   "midfield": 0.05,
+   "attacking": 0.2188
+  },
+  "wc2022": {
+   "back-line": 0.3125,
+   "build-up": 0.5813,
+   "midfield": 0.0125,
+   "attacking": 0.0938
+  },
+  "wc2026": {
+   "back-line": 0.3833,
+   "build-up": 0.525,
+   "midfield": 0.0167,
+   "attacking": 0.075
+  }
+ },
+ "passes": {
+  "wc2018": {
+   "back-line": 0.2129,
+   "build-up": 0.3707,
+   "midfield": 0.139,
+   "attacking": 0.2774
+  },
+  "wc2022": {
+   "back-line": 0.2667,
+   "build-up": 0.3601,
+   "midfield": 0.1127,
+   "attacking": 0.2605
+  },
+  "wc2026": {
+   "back-line": 0.2701,
+   "build-up": 0.3538,
+   "midfield": 0.1218,
+   "attacking": 0.2543
+  }
+ }
+}

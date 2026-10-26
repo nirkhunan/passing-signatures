@@ -1,0 +1,252 @@
+{
+ "schema_version": "2.0",
+ "tournament": {
+  "id": "wc2026",
+  "name": "2026 FIFA World Cup",
+  "host": "Canada · Mexico · United States",
+  "source": "FIFA post-match reports",
+  "team_count": 48
+ },
+ "teams": [
+  {
+   "name": "Algeria",
+   "slug": "algeria",
+   "file": "algeria.json"
+  },
+  {
+   "name": "Argentina",
+   "slug": "argentina",
+   "file": "argentina.json"
+  },
+  {
+   "name": "Australia",
+   "slug": "australia",
+   "file": "australia.json"
+  },
+  {
+   "name": "Austria",
+   "slug": "austria",
+   "file": "austria.json"
+  },
+  {
+   "name": "Belgium",
+   "slug": "belgium",
+   "file": "belgium.json"
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "slug": "bosnia_and_herzegovina",
+   "file": "bosnia_and_herzegovina.json"
+  },
+  {
+   "name": "Brazil",
+   "slug": "brazil",
+   "file": "brazil.json"
+  },
+  {
+   "name": "Cabo Verde",
+   "slug": "cabo_verde",
+   "file": "cabo_verde.json"
+  },
+  {
+   "name": "Canada",
+   "slug": "canada",
+   "file": "canada.json"
+  },
+  {
+   "name": "Colombia",
+   "slug": "colombia",
+   "file": "colombia.json"
+  },
+  {
+   "name": "Congo DR",
+   "slug": "congo_dr",
+   "file": "congo_dr.json"
+  },
+  {
+   "name": "Croatia",
+   "slug": "croatia",
+   "file": "croatia.json"
+  },
+  {
+   "name": "Curaçao",
+   "slug": "curacao",
+   "file": "curacao.json"
+  },
+  {
+   "name": "Czechia",
+   "slug": "czechia",
+   "file": "czechia.json"
+  },
+  {
+   "name": "Côte d'Ivoire",
+   "slug": "cote_d_ivoire",
+   "file": "cote_d_ivoire.json"
+  },
+  {
+   "name": "Ecuador",
+   "slug": "ecuador",
+   "file": "ecuador.json"
+  },
+  {
+   "name": "Egypt",
+   "slug": "egypt",
+   "file": "egypt.json"
+  },
+  {
+   "name": "England",
+   "slug": "england",
+   "file": "england.json"
+  },
+  {
+   "name": "France",
+   "slug": "france",
+   "file": "france.json"
+  },
+  {
+   "name": "Germany",
+   "slug": "germany",
+   "file": "germany.json"
+  },
+  {
+   "name": "Ghana",
+   "slug": "ghana",
+   "file": "ghana.json"
+  },
+  {
+   "name": "Haiti",
+   "slug": "haiti",
+   "file": "haiti.json"
+  },
+  {
+   "name": "Iran",
+   "slug": "iran",
+   "file": "iran.json"
+  },
+  {
+   "name": "Iraq",
+   "slug": "iraq",
+   "file": "iraq.json"
+  },
+  {
+   "name": "Japan",
+   "slug": "japan",
+   "file": "japan.json"
+  },
+  {
+   "name": "Jordan",
+   "slug": "jordan",
+   "file": "jordan.json"
+  },
+  {
+   "name": "Mexico",
+   "slug": "mexico",
+   "file": "mexico.json"
+  },
+  {
+   "name": "Morocco",
+   "slug": "morocco",
+   "file": "morocco.json"
+  },
+  {
+   "name": "Netherlands",
+   "slug": "netherlands",
+   "file": "netherlands.json"
+  },
+  {
+   "name": "New Zealand",
+   "slug": "new_zealand",
+   "file": "new_zealand.json"
+  },
+  {
+   "name": "Norway",
+   "slug": "norway",
+   "file": "norway.json"
+  },
+  {
+   "name": "Panama",
+   "slug": "panama",
+   "file": "panama.json"
+  },
+  {
+   "name": "Paraguay",
+   "slug": "paraguay",
+   "file": "paraguay.json"
+  },
+  {
+   "name": "Portugal",
+   "slug": "portugal",
+   "file": "portugal.json"
+  },
+  {
+   "name": "Qatar",
+   "slug": "qatar",
+   "file": "qatar.json"
+  },
+  {
+   "name": "Saudi Arabia",
+   "slug": "saudi_arabia",
+   "file": "saudi_arabia.json"
+  },
+  {
+   "name": "Scotland",
+   "slug": "scotland",
+   "file": "scotland.json"
+  },
+  {
+   "name": "Senegal",
+   "slug": "senegal",
+   "file": "senegal.json"
+  },
+  {
+   "name": "South Africa",
+   "slug": "south_africa",
+   "file": "south_africa.json"
+  },
+  {
+   "name": "South Korea",
+   "slug": "south_korea",
+   "file": "south_korea.json"
+  },
+  {
+   "name": "Spain",
+   "slug": "spain",
+   "file": "spain.json"
+  },
+  {
+   "name": "Sweden",
+   "slug": "sweden",
+   "file": "sweden.json"
+  },
+  {
+   "name": "Switzerland",
+   "slug": "switzerland",
+   "file": "switzerland.json"
+  },
+  {
+   "name": "Tunisia",
+   "slug": "tunisia",
+   "file": "tunisia.json"
+  },
+  {
+   "name": "Türkiye",
+   "slug": "turkiye",
+   "file": "turkiye.json"
+  },
+  {
+   "name": "United States",
+   "slug": "united_states",
+   "file": "united_states.json"
+  },
+  {
+   "name": "Uruguay",
+   "slug": "uruguay",
+   "file": "uruguay.json"
+  },
+  {
+   "name": "Uzbekistan",
+   "slug": "uzbekistan",
+   "file": "uzbekistan.json"
+  }
+ ]
+}
